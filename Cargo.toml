@@ -1,0 +1,19 @@
+[package]
+name = "palladium-core"
+version = "0.1.0"
+edition = "2024"
+description = "A comprehensive library for classical and modern cryptographic algorithms."
+license = "Apache-2.0"
+authors = ["Fathi Abdelmalek <dev@imfathi.com>"]
+homepage = "https://github.com/fathiabdelmalek/polygraphia"
+repository = "https://github.com/fathiabdelmalek/polygraphia"
+documentation = "https://docs.rs/polygraphia"
+readme = "README.md"
+
+
+[lib]
+name = "palladium_core"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+polygraphia = "0.1.1"
